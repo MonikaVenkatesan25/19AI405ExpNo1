@@ -87,18 +87,4 @@ class VacuumCleanerAgent:
         print(f"Location: {self.location}, Dirt Status: {self.dirt_status}, ", end="")
         print(f"Perfomance Measure: {self.performance}")
 
-
-# Example usage:
-agent = VacuumCleanerAgent()
-# Move the agent, suck dirt, and do nothing
-agent.perform_action("left")
-agent.print_status()
-agent.perform_action("suck")
-agent.print_status()
-agent.perform_action("right")
-agent.print_status()
-agent.perform_action("suck")
-agent.print_status()
-agent.perform_action("nothing")
-agent.print_status()
 </p>
